@@ -1,0 +1,622 @@
+
+Combo Slashers X.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+barrel
+  rotate: false
+  xy: 1, 128
+  size: 78, 128
+  orig: 78, 128
+  offset: 0, 0
+  index: -1
+barrel-destroyed
+  rotate: false
+  xy: 212, 673
+  size: 78, 128
+  orig: 78, 128
+  offset: 0, 0
+  index: -1
+bumper
+  rotate: false
+  xy: 212, 838
+  size: 257, 35
+  orig: 257, 35
+  offset: 0, 0
+  index: -1
+car
+  rotate: false
+  xy: 212, 875
+  size: 333, 148
+  orig: 333, 148
+  offset: 0, 0
+  index: -1
+crack-1
+  rotate: false
+  xy: 185, 51
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+crack-2
+  rotate: false
+  xy: 531, 838
+  size: 13, 35
+  orig: 13, 35
+  offset: 0, 0
+  index: -1
+crack-3
+  rotate: false
+  xy: 547, 874
+  size: 55, 35
+  orig: 55, 35
+  offset: 0, 0
+  index: -1
+crack-4
+  rotate: false
+  xy: 115, 1
+  size: 18, 15
+  orig: 18, 15
+  offset: 0, 0
+  index: -1
+crack-5
+  rotate: false
+  xy: 546, 837
+  size: 33, 13
+  orig: 33, 13
+  offset: 0, 0
+  index: -1
+crack-6
+  rotate: false
+  xy: 299, 566
+  size: 35, 13
+  orig: 35, 13
+  offset: 0, 0
+  index: -1
+crack-7
+  rotate: false
+  xy: 452, 821
+  size: 8, 15
+  orig: 8, 15
+  offset: 0, 0
+  index: -1
+crate
+  rotate: false
+  xy: 1, 258
+  size: 178, 163
+  orig: 178, 163
+  offset: 0, 0
+  index: -1
+crate-bl
+  rotate: false
+  xy: 181, 243
+  size: 50, 80
+  orig: 50, 80
+  offset: 0, 0
+  index: -1
+crate-bl-bg
+  rotate: false
+  xy: 176, 161
+  size: 50, 80
+  orig: 50, 80
+  offset: 0, 0
+  index: -1
+crate-br
+  rotate: false
+  xy: 81, 148
+  size: 93, 108
+  orig: 93, 108
+  offset: 0, 0
+  index: -1
+crate-br-bg
+  rotate: false
+  xy: 292, 693
+  size: 93, 108
+  orig: 93, 108
+  offset: 0, 0
+  index: -1
+crate-t
+  rotate: false
+  xy: 212, 563
+  size: 85, 108
+  orig: 85, 108
+  offset: 0, 0
+  index: -1
+crate-t-bg
+  rotate: false
+  xy: 1, 18
+  size: 85, 108
+  orig: 85, 108
+  offset: 0, 0
+  index: -1
+crate-tl
+  rotate: false
+  xy: 212, 478
+  size: 63, 83
+  orig: 63, 83
+  offset: 0, 0
+  index: -1
+crate-tl-bg
+  rotate: false
+  xy: 387, 718
+  size: 63, 83
+  orig: 63, 83
+  offset: 0, 0
+  index: -1
+crate-tr
+  rotate: false
+  xy: 299, 581
+  size: 53, 50
+  orig: 53, 50
+  offset: 0, 0
+  index: -1
+crate-tr-bg
+  rotate: false
+  xy: 452, 708
+  size: 53, 50
+  orig: 53, 50
+  offset: 0, 0
+  index: -1
+door
+  rotate: false
+  xy: 181, 325
+  size: 45, 96
+  orig: 45, 96
+  offset: 0, 0
+  index: -1
+door-bg
+  rotate: false
+  xy: 228, 325
+  size: 45, 96
+  orig: 45, 96
+  offset: 0, 0
+  index: -1
+down-big
+  rotate: false
+  xy: 452, 760
+  size: 53, 58
+  orig: 53, 58
+  offset: 0, 0
+  index: -1
+down-big-selected
+  rotate: false
+  xy: 88, 18
+  size: 53, 58
+  orig: 53, 58
+  offset: 0, 0
+  index: -1
+engine-1
+  rotate: false
+  xy: 787, 990
+  size: 40, 18
+  orig: 40, 18
+  offset: 0, 0
+  index: -1
+engine-2
+  rotate: false
+  xy: 1, 1
+  size: 33, 15
+  orig: 33, 15
+  offset: 0, 0
+  index: -1
+engine-3
+  rotate: false
+  xy: 827, 936
+  size: 28, 13
+  orig: 28, 13
+  offset: 0, 0
+  index: -1
+engine-4
+  rotate: false
+  xy: 387, 691
+  size: 38, 25
+  orig: 38, 25
+  offset: 0, 0
+  index: -1
+engine-5
+  rotate: false
+  xy: 829, 983
+  size: 38, 25
+  orig: 38, 25
+  offset: 0, 0
+  index: -1
+engine-6
+  rotate: false
+  xy: 661, 884
+  size: 33, 25
+  orig: 33, 25
+  offset: 0, 0
+  index: -1
+hood
+  rotate: false
+  xy: 547, 990
+  size: 238, 33
+  orig: 238, 33
+  offset: 0, 0
+  index: -1
+hood-hole
+  rotate: false
+  xy: 212, 803
+  size: 238, 33
+  orig: 238, 33
+  offset: 0, 0
+  index: -1
+knight-arm-back
+  rotate: false
+  xy: 406, 651
+  size: 25, 38
+  orig: 25, 38
+  offset: 0, 0
+  index: -1
+knight-arm-front
+  rotate: false
+  xy: 604, 866
+  size: 28, 43
+  orig: 28, 43
+  offset: 0, 0
+  index: -1
+knight-chest
+  rotate: false
+  xy: 283, 284
+  size: 43, 50
+  orig: 43, 50
+  offset: 0, 0
+  index: -1
+knight-foot-back
+  rotate: false
+  xy: 546, 852
+  size: 33, 20
+  orig: 33, 20
+  offset: 0, 0
+  index: -1
+knight-foot-front
+  rotate: false
+  xy: 921, 1003
+  size: 33, 20
+  orig: 33, 20
+  offset: 0, 0
+  index: -1
+knight-forearm-back
+  rotate: false
+  xy: 659, 926
+  size: 43, 20
+  orig: 43, 20
+  offset: 0, 0
+  index: -1
+knight-forearm-front
+  rotate: false
+  xy: 507, 706
+  size: 25, 50
+  orig: 25, 50
+  offset: 0, 0
+  index: -1
+knight-foreleg-back
+  rotate: false
+  xy: 507, 758
+  size: 25, 60
+  orig: 25, 60
+  offset: 0, 0
+  index: -1
+knight-foreleg-front
+  rotate: false
+  xy: 354, 631
+  size: 28, 60
+  orig: 28, 60
+  offset: 0, 0
+  index: -1
+knight-hand-back
+  rotate: false
+  xy: 193, 1
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+knight-hand-front
+  rotate: false
+  xy: 601, 839
+  size: 25, 25
+  orig: 25, 25
+  offset: 0, 0
+  index: -1
+knight-head
+  rotate: false
+  xy: 283, 237
+  size: 35, 45
+  orig: 35, 45
+  offset: 0, 0
+  index: -1
+knight-hip
+  rotate: false
+  xy: 827, 951
+  size: 30, 30
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+knight-shoulder-back
+  rotate: false
+  xy: 36, 1
+  size: 30, 15
+  orig: 30, 15
+  offset: 0, 0
+  index: -1
+knight-shoulder-front
+  rotate: false
+  xy: 884, 1005
+  size: 35, 18
+  orig: 35, 18
+  offset: 0, 0
+  index: -1
+knight-sword
+  rotate: false
+  xy: 547, 911
+  size: 110, 35
+  orig: 110, 35
+  offset: 0, 0
+  index: -1
+knight-thigh-back
+  rotate: false
+  xy: 354, 576
+  size: 28, 53
+  orig: 28, 53
+  offset: 0, 0
+  index: -1
+knight-thigh-front
+  rotate: false
+  xy: 797, 935
+  size: 28, 53
+  orig: 28, 53
+  offset: 0, 0
+  index: -1
+left-big
+  rotate: false
+  xy: 272, 423
+  size: 58, 53
+  orig: 58, 53
+  offset: 0, 0
+  index: -1
+left-big-selected
+  rotate: false
+  xy: 712, 935
+  size: 58, 53
+  orig: 58, 53
+  offset: 0, 0
+  index: -1
+ninja-arm-back
+  rotate: false
+  xy: 217, 65
+  size: 15, 38
+  orig: 15, 38
+  offset: 0, 0
+  index: -1
+ninja-arm-front
+  rotate: false
+  xy: 314, 526
+  size: 15, 38
+  orig: 15, 38
+  offset: 0, 0
+  index: -1
+ninja-chest
+  rotate: false
+  xy: 277, 478
+  size: 35, 83
+  orig: 35, 83
+  offset: 0, 0
+  index: -1
+ninja-foot-back
+  rotate: false
+  xy: 93, 1
+  size: 20, 15
+  orig: 20, 15
+  offset: 0, 0
+  index: -1
+ninja-foot-front
+  rotate: false
+  xy: 68, 1
+  size: 23, 15
+  orig: 23, 15
+  offset: 0, 0
+  index: -1
+ninja-forearm-back
+  rotate: false
+  xy: 659, 911
+  size: 35, 13
+  orig: 35, 13
+  offset: 0, 0
+  index: -1
+ninja-forearm-front
+  rotate: false
+  xy: 989, 1010
+  size: 33, 13
+  orig: 33, 13
+  offset: 0, 0
+  index: -1
+ninja-foreleg-back
+  rotate: false
+  xy: 384, 581
+  size: 18, 53
+  orig: 18, 53
+  offset: 0, 0
+  index: -1
+ninja-foreleg-front
+  rotate: false
+  xy: 772, 933
+  size: 23, 55
+  orig: 23, 55
+  offset: 0, 0
+  index: -1
+ninja-hair
+  rotate: false
+  xy: 427, 693
+  size: 15, 23
+  orig: 15, 23
+  offset: 0, 0
+  index: -1
+ninja-hand-back
+  rotate: false
+  xy: 869, 995
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+ninja-hand-front
+  rotate: false
+  xy: 406, 636
+  size: 20, 13
+  orig: 20, 13
+  offset: 0, 0
+  index: -1
+ninja-head
+  rotate: false
+  xy: 661, 854
+  size: 28, 28
+  orig: 28, 28
+  offset: 0, 0
+  index: -1
+ninja-hip
+  rotate: false
+  xy: 185, 26
+  size: 25, 23
+  orig: 25, 23
+  offset: 0, 0
+  index: -1
+ninja-sword
+  rotate: false
+  xy: 787, 1010
+  size: 95, 13
+  orig: 95, 13
+  offset: 0, 0
+  index: -1
+ninja-thigh-back
+  rotate: false
+  xy: 384, 636
+  size: 20, 53
+  orig: 20, 53
+  offset: 0, 0
+  index: -1
+ninja-thigh-front
+  rotate: false
+  xy: 634, 854
+  size: 25, 55
+  orig: 25, 55
+  offset: 0, 0
+  index: -1
+plate
+  rotate: false
+  xy: 275, 336
+  size: 53, 25
+  orig: 53, 25
+  offset: 0, 0
+  index: -1
+rearview-left
+  rotate: false
+  xy: 180, 83
+  size: 35, 20
+  orig: 35, 20
+  offset: 0, 0
+  index: -1
+rearview-right
+  rotate: false
+  xy: 956, 1002
+  size: 31, 21
+  orig: 31, 21
+  offset: 0, 0
+  index: -1
+right-big
+  rotate: false
+  xy: 212, 423
+  size: 58, 53
+  orig: 58, 53
+  offset: 0, 0
+  index: -1
+right-big-selected
+  rotate: false
+  xy: 471, 820
+  size: 58, 53
+  orig: 58, 53
+  offset: 0, 0
+  index: -1
+street
+  rotate: false
+  xy: 1, 423
+  size: 209, 600
+  orig: 209, 600
+  offset: 0, 0
+  index: -1
+tire-bl
+  rotate: false
+  xy: 138, 81
+  size: 40, 65
+  orig: 40, 65
+  offset: 0, 0
+  index: -1
+tire-bl-wrecked
+  rotate: false
+  xy: 143, 26
+  size: 40, 53
+  orig: 40, 53
+  offset: 0, 0
+  index: -1
+tire-fl
+  rotate: false
+  xy: 233, 245
+  size: 48, 78
+  orig: 48, 78
+  offset: 0, 0
+  index: -1
+tire-fl-wrecked
+  rotate: false
+  xy: 88, 78
+  size: 48, 68
+  orig: 48, 68
+  offset: 0, 0
+  index: -1
+tire-fr
+  rotate: false
+  xy: 180, 105
+  size: 48, 54
+  orig: 48, 54
+  offset: 0, 0
+  index: -1
+tire-fr-wrecked
+  rotate: false
+  xy: 143, 1
+  size: 48, 23
+  orig: 48, 23
+  offset: 0, 0
+  index: -1
+up-big
+  rotate: false
+  xy: 275, 363
+  size: 53, 58
+  orig: 53, 58
+  offset: 0, 0
+  index: -1
+up-big-selected
+  rotate: false
+  xy: 299, 633
+  size: 53, 58
+  orig: 53, 58
+  offset: 0, 0
+  index: -1
+window-fore
+  rotate: false
+  xy: 581, 844
+  size: 18, 28
+  orig: 18, 28
+  offset: 0, 0
+  index: -1
+window-rear
+  rotate: false
+  xy: 314, 496
+  size: 25, 28
+  orig: 25, 28
+  offset: 0, 0
+  index: -1
+windshield
+  rotate: false
+  xy: 547, 948
+  size: 163, 40
+  orig: 163, 40
+  offset: 0, 0
+  index: -1

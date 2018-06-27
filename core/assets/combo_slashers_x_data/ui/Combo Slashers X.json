@@ -1,0 +1,179 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	font: {
+		file: font-export.fnt
+	}
+	small: {
+		file: font-small-export.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	disabled: {
+		r: 0.8300001
+		g: 0.8300001
+		b: 0.8300001
+		a: 1
+	}
+	gray: {
+		r: 0.70333326
+		g: 0.70333326
+		b: 0.70333326
+		a: 1
+	}
+	red: {
+		r: 1
+		g: 0
+		b: 0
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	gray: {
+		name: white
+		color: gray
+	}
+	red: {
+		name: white
+		color: red
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: button-frame
+		down: button-frame-pressed
+		over: button-frame-over
+		checked: button-frame-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	up: {
+		imageUp: image-up
+		down: red
+		over: gray
+	}
+	down: {
+		imageUp: image-down
+		down: red
+		over: gray
+	}
+	left: {
+		imageUp: image-left
+		down: red
+		over: gray
+	}
+	right: {
+		imageUp: image-right
+		down: red
+		over: gray
+	}
+	list-up: {
+		imageUp: image-up
+		up: select-box
+		down: select-box-pressed
+		over: select-box-over
+	}
+	list-down: {
+		imageUp: image-down
+		up: select-box
+		down: select-box-pressed
+		over: select-box-over
+	}
+	list-left: {
+		imageUp: image-left
+		up: select-box
+		down: select-box-pressed
+		over: select-box-over
+	}
+	list-right: {
+		imageUp: image-right
+		up: select-box
+		down: select-box-pressed
+		over: select-box-over
+	}
+	list: {
+		up: select-box
+		down: select-box-pressed
+		over: select-box-over
+	}
+	ninja: {
+		imageUp: ninja
+		up: white
+		down: red
+		over: gray
+	}
+	knight: {
+		imageUp: knight
+		up: white
+		down: red
+		over: gray
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: font
+		fontColor: black
+	}
+	small: {
+		font: small
+		fontColor: black
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: {
+		font: font
+		fontColorSelected: black
+		fontColorUnselected: black
+		selection: white
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		background: list
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+	default: {
+		font: font
+		fontColor: black
+		background: select-box
+		scrollStyle: default
+		listStyle: default
+		backgroundOver: select-box-over
+		backgroundOpen: select-box-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: font
+		fontColor: black
+		up: button
+		down: button-pressed
+		over: button-over
+	}
+	small: {
+		font: small
+		fontColor: black
+		disabledFontColor: disabled
+		up: white
+		down: red
+		over: gray
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		titleFont: font
+		stageBackground: white
+	}
+}
+}

@@ -1,0 +1,1280 @@
+{
+"skeleton": { "hash": "L2Gdv1aA41/2mcLPmKEqHCPJPMw", "spine": "3.7.17-beta", "width": 1330, "height": 642.19, "images": "../output/", "audio": "../../code/core/assets/combo_slashers_x_data/sfx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "car", "parent": "root", "length": 835.76, "rotation": 0.2, "x": -89.64, "y": 263.29 },
+	{ "name": "bumper", "parent": "car", "length": 456.73, "rotation": 0.88, "x": 338.27, "y": -182.1 },
+	{ "name": "gravity", "parent": "root", "y": 79.56 },
+	{ "name": "bumper-gravity", "parent": "gravity", "color": "abe323ff" },
+	{ "name": "door", "parent": "car", "length": 221.31, "rotation": 87.57, "x": -313.34, "y": -85.08 },
+	{ "name": "door-gravity", "parent": "gravity", "color": "abe323ff" },
+	{ "name": "hood", "parent": "car", "length": 453.78, "rotation": -0.2, "x": 238.67, "y": 85.34 },
+	{ "name": "hood-gravity", "parent": "gravity", "color": "abe323ff" },
+	{ "name": "plate", "parent": "car", "length": 152.22, "rotation": -0.2, "x": 433.16, "y": -150.83 },
+	{ "name": "plate-gravity", "parent": "gravity", "color": "abe323ff" },
+	{ "name": "rearview-left", "parent": "car", "length": 112.04, "rotation": -178.73, "x": -255.06, "y": 158.84 },
+	{ "name": "rearview-left-gravity", "parent": "gravity", "color": "abe323ff" },
+	{ "name": "rearview-right", "parent": "car", "length": 135.01, "rotation": 1.02, "x": 586.49, "y": 173.18 },
+	{ "name": "rearview-right-gravity", "parent": "gravity", "color": "abe323ff" },
+	{ "name": "tire-bl", "parent": "root", "length": 100.58, "x": -501.69, "y": 174.47 },
+	{ "name": "tire-fl", "parent": "root", "length": 123.79, "x": -313.43, "y": 115.16 },
+	{ "name": "tire-fr", "parent": "root", "length": 90.3, "rotation": 1.64, "x": 645.96, "y": 71.31 }
+],
+"slots": [
+	{ "name": "tire-fr", "bone": "tire-fr", "attachment": "tire-fr" },
+	{ "name": "tire-bl", "bone": "tire-bl", "attachment": "tire-bl" },
+	{ "name": "tire-fl", "bone": "tire-fl", "attachment": "tire-fl" },
+	{ "name": "car", "bone": "car", "attachment": "car" },
+	{ "name": "bumper", "bone": "bumper", "attachment": "bumper" },
+	{ "name": "crack-1", "bone": "car" },
+	{ "name": "crack-2", "bone": "car" },
+	{ "name": "crack-3", "bone": "car" },
+	{ "name": "crack-4", "bone": "car" },
+	{ "name": "crack-5", "bone": "car" },
+	{ "name": "crack-6", "bone": "car" },
+	{ "name": "crack-7", "bone": "car" },
+	{ "name": "door-bg", "bone": "car" },
+	{ "name": "door", "bone": "door" },
+	{ "name": "hood-hole", "bone": "car" },
+	{ "name": "engine-1", "bone": "car" },
+	{ "name": "engine-2", "bone": "car" },
+	{ "name": "engine-3", "bone": "car" },
+	{ "name": "engine-4", "bone": "car" },
+	{ "name": "engine-5", "bone": "car" },
+	{ "name": "engine-6", "bone": "car" },
+	{ "name": "windshield", "bone": "car" },
+	{ "name": "hood", "bone": "hood" },
+	{ "name": "plate", "bone": "plate", "attachment": "plate" },
+	{ "name": "rearview-right", "bone": "rearview-right", "attachment": "rearview-right" },
+	{ "name": "window-fore", "bone": "car" },
+	{ "name": "window-rear", "bone": "car" },
+	{ "name": "rearview-left", "bone": "rearview-left", "attachment": "rearview-left" },
+	{ "name": "bbox", "bone": "car", "attachment": "bbox" }
+],
+"transform": [
+	{
+		"name": "bumper-gravity",
+		"order": 5,
+		"bones": [ "bumper" ],
+		"target": "bumper-gravity",
+		"local": true,
+		"relative": true,
+		"rotateMix": 0,
+		"scaleMix": 0,
+		"shearMix": 0
+	},
+	{
+		"name": "door-gravity",
+		"order": 4,
+		"bones": [ "door" ],
+		"target": "door-gravity",
+		"local": true,
+		"relative": true,
+		"rotateMix": 0,
+		"scaleMix": 0,
+		"shearMix": 0
+	},
+	{
+		"name": "hood-gravity",
+		"order": 3,
+		"bones": [ "hood" ],
+		"target": "hood-gravity",
+		"local": true,
+		"relative": true,
+		"rotateMix": 0,
+		"scaleMix": 0,
+		"shearMix": 0
+	},
+	{
+		"name": "plate-gravity",
+		"order": 2,
+		"bones": [ "plate" ],
+		"target": "plate-gravity",
+		"local": true,
+		"relative": true,
+		"rotateMix": 0,
+		"scaleMix": 0,
+		"shearMix": 0
+	},
+	{
+		"name": "rearview-left-gravity",
+		"order": 0,
+		"bones": [ "rearview-left" ],
+		"target": "rearview-left-gravity",
+		"local": true,
+		"relative": true,
+		"rotateMix": 0,
+		"scaleMix": 0,
+		"shearMix": 0
+	},
+	{
+		"name": "rearview-right-gravity",
+		"order": 1,
+		"bones": [ "rearview-right" ],
+		"target": "rearview-right-gravity",
+		"local": true,
+		"relative": true,
+		"rotateMix": 0,
+		"scaleMix": 0,
+		"shearMix": 0
+	}
+],
+"skins": {
+	"default": {
+		"bbox": {
+			"bbox": {
+				"type": "boundingbox",
+				"vertexCount": 4,
+				"vertices": [ -426.54, -207.6, -417.46, 198.14, 649.19, 188.32, 693.94, -208.38 ]
+			}
+		},
+		"bumper": {
+			"bumper": { "x": 17.46, "y": 10.04, "rotation": -1.08, "width": 1028, "height": 138 }
+		},
+		"car": {
+			"car": { "x": 210.29, "y": 66.27, "rotation": -0.2, "width": 1330, "height": 591 }
+		},
+		"crack-1": {
+			"crack-1": { "x": -25.09, "y": 218.42, "rotation": -0.2, "width": 121, "height": 119 }
+		},
+		"crack-2": {
+			"crack-2": { "x": 175.2, "y": 217.73, "rotation": -0.2, "width": 51, "height": 140 }
+		},
+		"crack-3": {
+			"crack-3": { "x": 339.92, "y": 226.06, "rotation": -0.2, "width": 220, "height": 141 }
+		},
+		"crack-4": {
+			"crack-4": { "x": -74.83, "y": -8.42, "rotation": -0.2, "width": 70, "height": 61 }
+		},
+		"crack-5": {
+			"crack-5": { "x": 98.77, "y": -4.56, "rotation": -0.2, "width": 130, "height": 50 }
+		},
+		"crack-6": {
+			"crack-6": { "x": 713.05, "y": 6.68, "rotation": -0.2, "width": 141, "height": 51 }
+		},
+		"crack-7": {
+			"crack-7": { "x": 810.98, "y": 6.34, "rotation": -0.2, "width": 31, "height": 61 }
+		},
+		"door": {
+			"door": { "x": 114.31, "y": -29.07, "rotation": -87.77, "width": 179, "height": 383 }
+		},
+		"door-bg": {
+			"door-bg": { "x": -278.62, "y": 26.9, "rotation": -0.2, "width": 179, "height": 383 }
+		},
+		"engine-1": {
+			"engine-1": { "x": 0.61, "y": 90.55, "rotation": -0.2, "width": 160, "height": 71 }
+		},
+		"engine-2": {
+			"engine-2": { "x": 155.87, "y": 75.34, "rotation": -0.2, "width": 131, "height": 61 }
+		},
+		"engine-3": {
+			"engine-3": { "x": 615.76, "y": 85.99, "rotation": -0.2, "width": 111, "height": 51 }
+		},
+		"engine-4": {
+			"engine-4": { "x": 333.25, "y": 86.96, "rotation": -0.2, "width": 150, "height": 100 }
+		},
+		"engine-5": {
+			"engine-5": { "x": 410.3, "y": 85.47, "rotation": -0.2, "width": 150, "height": 100 }
+		},
+		"engine-6": {
+			"engine-6": { "x": 489.79, "y": 86.42, "rotation": -0.2, "width": 131, "height": 101 }
+		},
+		"hood": {
+			"hood": { "x": 69.61, "y": -1.36, "width": 951, "height": 130 }
+		},
+		"hood-hole": {
+			"hood-hole": { "x": 314.73, "y": 82.93, "rotation": -0.2, "width": 951, "height": 130 }
+		},
+		"plate": {
+			"plate": { "x": -0.44, "y": -9.6, "width": 211, "height": 100 }
+		},
+		"rearview-left": {
+			"rearview-left": { "x": 41.31, "y": 0.31, "rotation": 178.53, "width": 141, "height": 80 }
+		},
+		"rearview-right": {
+			"rearview-right": { "x": 43.06, "y": 1.27, "rotation": -1.22, "width": 125, "height": 82 }
+		},
+		"tire-bl": {
+			"tire-bl": { "x": 40.55, "y": 14.26, "width": 160, "height": 261 },
+			"tire-bl-wrecked": { "x": 49.08, "y": 57.51, "rotation": 0.2, "width": 161, "height": 210 }
+		},
+		"tire-fl": {
+			"tire-fl": { "x": 63.39, "y": 23.43, "width": 190, "height": 310 },
+			"tire-fl-wrecked": { "x": 58.93, "y": 58.93, "width": 191, "height": 271 }
+		},
+		"tire-fr": {
+			"tire-fr": { "x": 11.88, "y": 44.29, "rotation": -1.64, "width": 190, "height": 215 },
+			"tire-fr-wrecked": { "x": 1.45, "y": 50.78, "rotation": -1.64, "width": 190, "height": 90 }
+		},
+		"window-fore": {
+			"window-fore": { "x": -236.75, "y": 228.46, "rotation": -0.2, "width": 70, "height": 111 }
+		},
+		"window-rear": {
+			"window-rear": { "x": -295.64, "y": 242.62, "rotation": -0.2, "width": 100, "height": 110 }
+		},
+		"windshield": {
+			"windshield": { "x": 186.67, "y": 228.56, "rotation": -0.2, "width": 651, "height": 161 }
+		}
+	}
+},
+"events": {
+	"air": { "audio": "air.wav" },
+	"glass": { "audio": "glass.wav" },
+	"metal": { "audio": "metal.wav" },
+	"window": { "audio": "window.wav" }
+},
+"animations": {
+	"01": {
+		"slots": {
+			"window-rear": {
+				"attachment": [
+					{ "time": 0, "name": "window-rear" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "window" }
+		]
+	},
+	"02": {
+		"slots": {
+			"window-fore": {
+				"attachment": [
+					{ "time": 0, "name": "window-fore" }
+				]
+			},
+			"window-rear": {
+				"attachment": [
+					{ "time": 0, "name": "window-rear" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "window" }
+		]
+	},
+	"03": {
+		"slots": {
+			"crack-1": {
+				"attachment": [
+					{ "time": 0, "name": "crack-1" }
+				]
+			},
+			"window-fore": {
+				"attachment": [
+					{ "time": 0, "name": "window-fore" }
+				]
+			},
+			"window-rear": {
+				"attachment": [
+					{ "time": 0, "name": "window-rear" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "window" }
+		]
+	},
+	"04": {
+		"slots": {
+			"crack-1": {
+				"attachment": [
+					{ "time": 0, "name": "crack-1" }
+				]
+			},
+			"crack-2": {
+				"attachment": [
+					{ "time": 0, "name": "crack-2" }
+				]
+			},
+			"window-fore": {
+				"attachment": [
+					{ "time": 0, "name": "window-fore" }
+				]
+			},
+			"window-rear": {
+				"attachment": [
+					{ "time": 0, "name": "window-rear" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "window" }
+		]
+	},
+	"05": {
+		"slots": {
+			"crack-1": {
+				"attachment": [
+					{ "time": 0, "name": "crack-1" }
+				]
+			},
+			"crack-2": {
+				"attachment": [
+					{ "time": 0, "name": "crack-2" }
+				]
+			},
+			"crack-3": {
+				"attachment": [
+					{ "time": 0, "name": "crack-3" }
+				]
+			},
+			"window-fore": {
+				"attachment": [
+					{ "time": 0, "name": "window-fore" }
+				]
+			},
+			"window-rear": {
+				"attachment": [
+					{ "time": 0, "name": "window-rear" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "window" }
+		]
+	},
+	"06": {
+		"slots": {
+			"crack-1": {
+				"attachment": [
+					{ "time": 0, "name": "crack-1" }
+				]
+			},
+			"crack-2": {
+				"attachment": [
+					{ "time": 0, "name": "crack-2" }
+				]
+			},
+			"crack-3": {
+				"attachment": [
+					{ "time": 0, "name": "crack-3" }
+				]
+			},
+			"rearview-left": {
+				"attachment": [
+					{ "time": 0.4333, "name": "rearview-left" },
+					{ "time": 0.6, "name": null },
+					{ "time": 0.7667, "name": "rearview-left" },
+					{ "time": 0.9667, "name": null },
+					{ "time": 1.1333, "name": "rearview-left" },
+					{ "time": 1.3, "name": null }
+				]
+			},
+			"window-fore": {
+				"attachment": [
+					{ "time": 0, "name": "window-fore" }
+				]
+			},
+			"window-rear": {
+				"attachment": [
+					{ "time": 0, "name": "window-rear" }
+				]
+			}
+		},
+		"bones": {
+			"rearview-left": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.4333, "angle": 57.14 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": -268.92, "y": 0.92 }
+				]
+			},
+			"rearview-left-gravity": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.301, -0.73, 1, 0.16 ]
+					},
+					{ "time": 0.4333, "x": 0, "y": -394.27 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "metal" }
+		]
+	},
+	"07": {
+		"slots": {
+			"crack-1": {
+				"attachment": [
+					{ "time": 0, "name": "crack-1" }
+				]
+			},
+			"crack-2": {
+				"attachment": [
+					{ "time": 0, "name": "crack-2" }
+				]
+			},
+			"crack-3": {
+				"attachment": [
+					{ "time": 0, "name": "crack-3" }
+				]
+			},
+			"rearview-left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rearview-right": {
+				"attachment": [
+					{ "time": 0.4667, "name": "rearview-right" },
+					{ "time": 0.6333, "name": null },
+					{ "time": 0.8, "name": "rearview-right" },
+					{ "time": 0.9667, "name": null },
+					{ "time": 1.1333, "name": "rearview-right" },
+					{ "time": 1.3, "name": null }
+				]
+			},
+			"window-fore": {
+				"attachment": [
+					{ "time": 0, "name": "window-fore" }
+				]
+			},
+			"window-rear": {
+				"attachment": [
+					{ "time": 0, "name": "window-rear" }
+				]
+			}
+		},
+		"bones": {
+			"rearview-right": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.4667, "angle": -78.61 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.4667, "x": 378.31, "y": -1.3 }
+				]
+			},
+			"rearview-right-gravity": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.284, -0.77, 1, 0.22 ]
+					},
+					{ "time": 0.4667, "x": 0, "y": -378.31 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "metal" }
+		]
+	},
+	"08": {
+		"slots": {
+			"crack-1": {
+				"attachment": [
+					{ "time": 0, "name": "crack-1" }
+				]
+			},
+			"crack-2": {
+				"attachment": [
+					{ "time": 0, "name": "crack-2" }
+				]
+			},
+			"crack-3": {
+				"attachment": [
+					{ "time": 0, "name": "crack-3" }
+				]
+			},
+			"door": {
+				"attachment": [
+					{ "time": 0, "name": "door" },
+					{ "time": 0.4333, "name": "door" },
+					{ "time": 0.6, "name": null },
+					{ "time": 0.7667, "name": "door" },
+					{ "time": 0.9333, "name": null },
+					{ "time": 1.1, "name": "door" },
+					{ "time": 1.2333, "name": null }
+				]
+			},
+			"door-bg": {
+				"attachment": [
+					{ "time": 0, "name": "door-bg" }
+				]
+			},
+			"rearview-left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rearview-right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"window-fore": {
+				"attachment": [
+					{ "time": 0, "name": "window-fore" }
+				]
+			},
+			"window-rear": {
+				"attachment": [
+					{ "time": 0, "name": "window-rear" }
+				]
+			}
+		},
+		"bones": {
+			"door": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0.25, 0, 1, 0.26 ]
+					},
+					{ "time": 0.4333, "angle": -263.16 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": -109.39, "y": 0.38 }
+				]
+			},
+			"door-gravity": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.25, 0, 0.98, 0.25 ]
+					},
+					{ "time": 0.4333, "x": 0, "y": -230.18 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "metal" }
+		]
+	},
+	"09": {
+		"slots": {
+			"crack-1": {
+				"attachment": [
+					{ "time": 0, "name": "crack-1" }
+				]
+			},
+			"crack-2": {
+				"attachment": [
+					{ "time": 0, "name": "crack-2" }
+				]
+			},
+			"crack-3": {
+				"attachment": [
+					{ "time": 0, "name": "crack-3" }
+				]
+			},
+			"door-bg": {
+				"attachment": [
+					{ "time": 0, "name": "door-bg" }
+				]
+			},
+			"rearview-left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rearview-right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"window-fore": {
+				"attachment": [
+					{ "time": 0, "name": "window-fore" }
+				]
+			},
+			"window-rear": {
+				"attachment": [
+					{ "time": 0, "name": "window-rear" }
+				]
+			},
+			"windshield": {
+				"attachment": [
+					{ "time": 0, "name": "windshield" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "glass" }
+		]
+	},
+	"10": {
+		"slots": {
+			"crack-1": {
+				"attachment": [
+					{ "time": 0, "name": "crack-1" }
+				]
+			},
+			"crack-2": {
+				"attachment": [
+					{ "time": 0, "name": "crack-2" }
+				]
+			},
+			"crack-3": {
+				"attachment": [
+					{ "time": 0, "name": "crack-3" }
+				]
+			},
+			"crack-4": {
+				"attachment": [
+					{ "time": 0, "name": "crack-4" }
+				]
+			},
+			"crack-5": {
+				"attachment": [
+					{ "time": 0, "name": "crack-5" }
+				]
+			},
+			"door-bg": {
+				"attachment": [
+					{ "time": 0, "name": "door-bg" }
+				]
+			},
+			"rearview-left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rearview-right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"window-fore": {
+				"attachment": [
+					{ "time": 0, "name": "window-fore" }
+				]
+			},
+			"window-rear": {
+				"attachment": [
+					{ "time": 0, "name": "window-rear" }
+				]
+			},
+			"windshield": {
+				"attachment": [
+					{ "time": 0, "name": "windshield" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "window" }
+		]
+	},
+	"11": {
+		"slots": {
+			"crack-1": {
+				"attachment": [
+					{ "time": 0, "name": "crack-1" }
+				]
+			},
+			"crack-2": {
+				"attachment": [
+					{ "time": 0, "name": "crack-2" }
+				]
+			},
+			"crack-3": {
+				"attachment": [
+					{ "time": 0, "name": "crack-3" }
+				]
+			},
+			"crack-4": {
+				"attachment": [
+					{ "time": 0, "name": "crack-4" }
+				]
+			},
+			"crack-5": {
+				"attachment": [
+					{ "time": 0, "name": "crack-5" }
+				]
+			},
+			"crack-6": {
+				"attachment": [
+					{ "time": 0, "name": "crack-6" }
+				]
+			},
+			"crack-7": {
+				"attachment": [
+					{ "time": 0, "name": "crack-7" }
+				]
+			},
+			"door-bg": {
+				"attachment": [
+					{ "time": 0, "name": "door-bg" }
+				]
+			},
+			"rearview-left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rearview-right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"window-fore": {
+				"attachment": [
+					{ "time": 0, "name": "window-fore" }
+				]
+			},
+			"window-rear": {
+				"attachment": [
+					{ "time": 0, "name": "window-rear" }
+				]
+			},
+			"windshield": {
+				"attachment": [
+					{ "time": 0, "name": "windshield" }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "window" }
+		]
+	},
+	"12": {
+		"slots": {
+			"crack-1": {
+				"attachment": [
+					{ "time": 0, "name": "crack-1" }
+				]
+			},
+			"crack-2": {
+				"attachment": [
+					{ "time": 0, "name": "crack-2" }
+				]
+			},
+			"crack-3": {
+				"attachment": [
+					{ "time": 0, "name": "crack-3" }
+				]
+			},
+			"crack-4": {
+				"attachment": [
+					{ "time": 0, "name": "crack-4" }
+				]
+			},
+			"crack-5": {
+				"attachment": [
+					{ "time": 0, "name": "crack-5" }
+				]
+			},
+			"crack-6": {
+				"attachment": [
+					{ "time": 0, "name": "crack-6" }
+				]
+			},
+			"crack-7": {
+				"attachment": [
+					{ "time": 0, "name": "crack-7" }
+				]
+			},
+			"door-bg": {
+				"attachment": [
+					{ "time": 0, "name": "door-bg" }
+				]
+			},
+			"plate": {
+				"attachment": [
+					{ "time": 0.4333, "name": "plate" },
+					{ "time": 0.6, "name": null },
+					{ "time": 0.7667, "name": "plate" },
+					{ "time": 0.9333, "name": null },
+					{ "time": 1.1, "name": "plate" },
+					{ "time": 1.2667, "name": null }
+				]
+			},
+			"rearview-left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rearview-right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"window-fore": {
+				"attachment": [
+					{ "time": 0, "name": "window-fore" }
+				]
+			},
+			"window-rear": {
+				"attachment": [
+					{ "time": 0, "name": "window-rear" }
+				]
+			},
+			"windshield": {
+				"attachment": [
+					{ "time": 0, "name": "windshield" }
+				]
+			}
+		},
+		"bones": {
+			"plate": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.4333, "angle": -16.93 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": 70.39, "y": -0.24 }
+				]
+			},
+			"plate-gravity": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.331, -0.76, 1, 0.1 ]
+					},
+					{ "time": 0.4333, "x": 0, "y": -146.2 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "metal" }
+		]
+	},
+	"13": {
+		"slots": {
+			"bumper": {
+				"attachment": [
+					{ "time": 0.4333, "name": "bumper" },
+					{ "time": 0.6, "name": null },
+					{ "time": 0.8, "name": "bumper" },
+					{ "time": 0.9667, "name": null },
+					{ "time": 1.1333, "name": "bumper" },
+					{ "time": 1.3333, "name": null }
+				]
+			},
+			"crack-1": {
+				"attachment": [
+					{ "time": 0, "name": "crack-1" }
+				]
+			},
+			"crack-2": {
+				"attachment": [
+					{ "time": 0, "name": "crack-2" }
+				]
+			},
+			"crack-3": {
+				"attachment": [
+					{ "time": 0, "name": "crack-3" }
+				]
+			},
+			"crack-4": {
+				"attachment": [
+					{ "time": 0, "name": "crack-4" }
+				]
+			},
+			"crack-5": {
+				"attachment": [
+					{ "time": 0, "name": "crack-5" }
+				]
+			},
+			"crack-6": {
+				"attachment": [
+					{ "time": 0, "name": "crack-6" }
+				]
+			},
+			"crack-7": {
+				"attachment": [
+					{ "time": 0, "name": "crack-7" }
+				]
+			},
+			"door-bg": {
+				"attachment": [
+					{ "time": 0, "name": "door-bg" }
+				]
+			},
+			"plate": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rearview-left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rearview-right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"window-fore": {
+				"attachment": [
+					{ "time": 0, "name": "window-fore" }
+				]
+			},
+			"window-rear": {
+				"attachment": [
+					{ "time": 0, "name": "window-rear" }
+				]
+			},
+			"windshield": {
+				"attachment": [
+					{ "time": 0, "name": "windshield" }
+				]
+			}
+		},
+		"bones": {
+			"bumper": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.4333, "angle": -1.63 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": 14.44, "y": -0.05 }
+				]
+			},
+			"bumper-gravity": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.327, -0.89, 0.899, -0.12 ]
+					},
+					{ "time": 0.4333, "x": 0, "y": -66.78 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "metal" }
+		]
+	},
+	"14": {
+		"slots": {
+			"bumper": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"crack-1": {
+				"attachment": [
+					{ "time": 0, "name": "crack-1" }
+				]
+			},
+			"crack-2": {
+				"attachment": [
+					{ "time": 0, "name": "crack-2" }
+				]
+			},
+			"crack-3": {
+				"attachment": [
+					{ "time": 0, "name": "crack-3" }
+				]
+			},
+			"crack-4": {
+				"attachment": [
+					{ "time": 0, "name": "crack-4" }
+				]
+			},
+			"crack-5": {
+				"attachment": [
+					{ "time": 0, "name": "crack-5" }
+				]
+			},
+			"crack-6": {
+				"attachment": [
+					{ "time": 0, "name": "crack-6" }
+				]
+			},
+			"crack-7": {
+				"attachment": [
+					{ "time": 0, "name": "crack-7" }
+				]
+			},
+			"door-bg": {
+				"attachment": [
+					{ "time": 0, "name": "door-bg" }
+				]
+			},
+			"engine-1": {
+				"attachment": [
+					{ "time": 0, "name": "engine-1" }
+				]
+			},
+			"engine-2": {
+				"attachment": [
+					{ "time": 0, "name": "engine-2" }
+				]
+			},
+			"engine-3": {
+				"attachment": [
+					{ "time": 0, "name": "engine-3" }
+				]
+			},
+			"engine-4": {
+				"attachment": [
+					{ "time": 0, "name": "engine-4" }
+				]
+			},
+			"engine-5": {
+				"attachment": [
+					{ "time": 0, "name": "engine-5" }
+				]
+			},
+			"engine-6": {
+				"attachment": [
+					{ "time": 0, "name": "engine-6" }
+				]
+			},
+			"hood": {
+				"attachment": [
+					{ "time": 0, "name": "hood" },
+					{ "time": 0.4333, "name": "hood" },
+					{ "time": 0.6, "name": null },
+					{ "time": 0.7667, "name": "hood" },
+					{ "time": 0.9333, "name": null },
+					{ "time": 1.1, "name": "hood" },
+					{ "time": 1.2667, "name": null }
+				]
+			},
+			"hood-hole": {
+				"attachment": [
+					{ "time": 0, "name": "hood-hole" }
+				]
+			},
+			"plate": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rearview-left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rearview-right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"window-fore": {
+				"attachment": [
+					{ "time": 0, "name": "window-fore" }
+				]
+			},
+			"window-rear": {
+				"attachment": [
+					{ "time": 0, "name": "window-rear" }
+				]
+			},
+			"windshield": {
+				"attachment": [
+					{ "time": 0, "name": "windshield" }
+				]
+			}
+		},
+		"bones": {
+			"hood": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.4333, "angle": -179.17 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.4333, "x": 848.34, "y": -2.92 }
+				]
+			},
+			"hood-gravity": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, -0.67, 1, 0.29 ]
+					},
+					{ "time": 0.4333, "x": 0, "y": -420.57 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "metal" }
+		]
+	},
+	"15": {
+		"slots": {
+			"bumper": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"crack-1": {
+				"attachment": [
+					{ "time": 0, "name": "crack-1" }
+				]
+			},
+			"crack-2": {
+				"attachment": [
+					{ "time": 0, "name": "crack-2" }
+				]
+			},
+			"crack-3": {
+				"attachment": [
+					{ "time": 0, "name": "crack-3" }
+				]
+			},
+			"crack-4": {
+				"attachment": [
+					{ "time": 0, "name": "crack-4" }
+				]
+			},
+			"crack-5": {
+				"attachment": [
+					{ "time": 0, "name": "crack-5" }
+				]
+			},
+			"crack-6": {
+				"attachment": [
+					{ "time": 0, "name": "crack-6" }
+				]
+			},
+			"crack-7": {
+				"attachment": [
+					{ "time": 0, "name": "crack-7" }
+				]
+			},
+			"door-bg": {
+				"attachment": [
+					{ "time": 0, "name": "door-bg" }
+				]
+			},
+			"engine-1": {
+				"attachment": [
+					{ "time": 0, "name": "engine-1" }
+				]
+			},
+			"engine-2": {
+				"attachment": [
+					{ "time": 0, "name": "engine-2" }
+				]
+			},
+			"engine-3": {
+				"attachment": [
+					{ "time": 0, "name": "engine-3" }
+				]
+			},
+			"engine-4": {
+				"attachment": [
+					{ "time": 0, "name": "engine-4" }
+				]
+			},
+			"engine-5": {
+				"attachment": [
+					{ "time": 0, "name": "engine-5" }
+				]
+			},
+			"engine-6": {
+				"attachment": [
+					{ "time": 0, "name": "engine-6" }
+				]
+			},
+			"hood-hole": {
+				"attachment": [
+					{ "time": 0, "name": "hood-hole" }
+				]
+			},
+			"plate": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rearview-left": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"rearview-right": {
+				"attachment": [
+					{ "time": 0, "name": null }
+				]
+			},
+			"tire-bl": {
+				"attachment": [
+					{ "time": 0, "name": "tire-bl-wrecked" }
+				]
+			},
+			"tire-fl": {
+				"attachment": [
+					{ "time": 0, "name": "tire-fl-wrecked" }
+				]
+			},
+			"tire-fr": {
+				"attachment": [
+					{ "time": 0, "name": "tire-fr-wrecked" }
+				]
+			},
+			"window-fore": {
+				"attachment": [
+					{ "time": 0, "name": "window-fore" }
+				]
+			},
+			"window-rear": {
+				"attachment": [
+					{ "time": 0, "name": "window-rear" }
+				]
+			},
+			"windshield": {
+				"attachment": [
+					{ "time": 0, "name": "windshield" }
+				]
+			}
+		},
+		"bones": {
+			"car": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": -97.54 }
+				]
+			},
+			"tire-fl": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": -54.86 }
+				]
+			},
+			"tire-bl": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": -54.86 }
+				]
+			},
+			"tire-fr": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.3333, "x": 0, "y": -54.86 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "air" }
+		]
+	},
+	"animation": {},
+	"hit": {
+		"bones": {
+			"car": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1, "angle": -2.2 },
+					{ "time": 0.1667, "angle": 0 }
+				]
+			}
+		}
+	}
+}
+}

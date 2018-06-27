@@ -1,0 +1,714 @@
+{
+"skeleton": { "hash": "EgS+viwP8CCL54AQosUCmDmml70", "spine": "3.7.17-beta", "width": 0, "height": 0, "images": "../output/", "audio": "../../code/core/assets/combo_slashers_x_data/sfx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "knight-hip", "parent": "root", "length": 70, "rotation": 90, "x": 30, "y": 303.04 },
+	{ "name": "arm-back-target", "parent": "knight-hip", "rotation": -90, "x": 100.02, "y": -126.33, "color": "ff3f00ff" },
+	{ "name": "arm-front-target", "parent": "knight-hip", "rotation": -90, "x": 82.55, "y": -113.22, "color": "ff3f00ff" },
+	{ "name": "knight-chest", "parent": "knight-hip", "length": 174.35, "rotation": 3.62, "x": 69, "y": 1 },
+	{ "name": "knight-arm-back", "parent": "knight-chest", "length": 105.57, "rotation": 179.06, "x": 133.29, "y": -15.44 },
+	{ "name": "knight-forearm-back", "parent": "knight-arm-back", "length": 119.15, "rotation": 85.25, "x": 97.47, "y": -1.84 },
+	{ "name": "knight-arm-front", "parent": "knight-chest", "length": 110.89, "rotation": -166.89, "x": 117.86, "y": 41.65 },
+	{ "name": "knight-forearm-front", "parent": "knight-arm-front", "length": 148.17, "rotation": 77.35, "x": 114.12, "y": -1.61 },
+	{ "name": "leg-back-target", "parent": "knight-hip", "rotation": -90, "x": -268.35, "y": -59.35, "color": "ff3f00ff" },
+	{ "name": "knight-thigh-back", "parent": "knight-hip", "length": 153.03, "rotation": -156.95, "x": -1, "y": -9 },
+	{ "name": "knight-foreleg-back", "parent": "knight-thigh-back", "length": 143.68, "rotation": -25.08, "x": 130.92, "y": 5.57 },
+	{ "name": "knight-foot-back", "parent": "knight-foreleg-back", "length": 88.32, "rotation": 88.82, "x": 154.53, "y": 2.07 },
+	{ "name": "leg-front-target", "parent": "knight-hip", "rotation": -90, "x": -272.72, "y": 62.95, "color": "ff3f00ff" },
+	{ "name": "knight-thigh-front", "parent": "knight-hip", "length": 131.31, "rotation": 173.47, "x": 6, "y": 5 },
+	{ "name": "knight-foreleg-front", "parent": "knight-thigh-front", "length": 141.6, "rotation": -8.91, "x": 143.28, "y": 0.82 },
+	{ "name": "knight-foot-front", "parent": "knight-foreleg-front", "length": 86.13, "rotation": 96.88, "x": 157.27, "y": -6.59 },
+	{ "name": "knight-hand-back", "parent": "knight-forearm-back", "length": 58.01, "rotation": 10.5, "x": 123.79, "y": -7.24 },
+	{ "name": "knight-hand-front", "parent": "knight-forearm-front", "length": 73.01, "rotation": -0.36, "x": 133.23, "y": -1.71 },
+	{ "name": "knight-head", "parent": "knight-chest", "length": 119.04, "rotation": -2.17, "x": 173.85, "y": 8.05 },
+	{ "name": "knight-sword", "parent": "knight-hand-front", "length": 393.13, "rotation": 87.74, "x": 42.59, "y": -2.81 }
+],
+"slots": [
+	{ "name": "knight-hand-back", "bone": "knight-hand-back", "attachment": "knight-hand-back" },
+	{ "name": "knight-forearm-back", "bone": "knight-forearm-back", "attachment": "knight-forearm-back" },
+	{ "name": "knight-arm-back", "bone": "knight-arm-back", "attachment": "knight-arm-back" },
+	{ "name": "knight-shoulder-back", "bone": "knight-chest", "attachment": "knight-shoulder-back" },
+	{ "name": "knight-chest", "bone": "knight-chest", "attachment": "knight-chest" },
+	{ "name": "knight-foot-back", "bone": "knight-foot-back", "attachment": "knight-foot-back" },
+	{ "name": "knight-thigh-back", "bone": "knight-thigh-back", "attachment": "knight-thigh-back" },
+	{ "name": "knight-foreleg-back", "bone": "knight-foreleg-back", "attachment": "knight-foreleg-back" },
+	{ "name": "knight-hip", "bone": "knight-hip", "attachment": "knight-hip" },
+	{ "name": "knight-foot-front", "bone": "knight-foot-front", "attachment": "knight-foot-front" },
+	{ "name": "knight-thigh-front", "bone": "knight-thigh-front", "attachment": "knight-thigh-front" },
+	{ "name": "knight-foreleg-front", "bone": "knight-foreleg-front", "attachment": "knight-foreleg-front" },
+	{ "name": "knight-head", "bone": "knight-head", "attachment": "knight-head" },
+	{ "name": "knight-forearm-front", "bone": "knight-forearm-front", "attachment": "knight-forearm-front" },
+	{ "name": "knight-arm-front", "bone": "knight-arm-front", "attachment": "knight-arm-front" },
+	{ "name": "knight-shoulder-front", "bone": "knight-chest", "attachment": "knight-shoulder-front" },
+	{ "name": "knight-sword", "bone": "knight-sword", "attachment": "knight-sword" },
+	{ "name": "knight-hand-front", "bone": "knight-hand-front", "attachment": "knight-hand-front" },
+	{ "name": "bbox", "bone": "knight-hip", "attachment": "bbox" }
+],
+"ik": [
+	{
+		"name": "arm-back-target",
+		"order": 3,
+		"bones": [ "knight-arm-back", "knight-forearm-back" ],
+		"target": "arm-back-target"
+	},
+	{
+		"name": "arm-front-target",
+		"order": 2,
+		"bones": [ "knight-arm-front", "knight-forearm-front" ],
+		"target": "arm-front-target"
+	},
+	{
+		"name": "leg-back-target",
+		"order": 0,
+		"bones": [ "knight-thigh-back", "knight-foreleg-back" ],
+		"target": "leg-back-target",
+		"bendPositive": false
+	},
+	{
+		"name": "leg-front-target",
+		"order": 1,
+		"bones": [ "knight-thigh-front", "knight-foreleg-front" ],
+		"target": "leg-front-target",
+		"bendPositive": false
+	}
+],
+"skins": {
+	"default": {
+		"bbox": {
+			"bbox": {
+				"type": "boundingbox",
+				"vertexCount": 4,
+				"vertices": [ -304.91, 75.67, 242.62, 66.83, 240.65, -158.28, -304.91, -150.42 ]
+			}
+		},
+		"knight-arm-back": {
+			"knight-arm-back": { "x": 36.69, "y": 4.85, "rotation": 95.98, "width": 100, "height": 150 }
+		},
+		"knight-arm-front": {
+			"knight-arm-front": { "x": 33.22, "y": 8.26, "rotation": 97.25, "width": 111, "height": 171 }
+		},
+		"knight-chest": {
+			"knight-chest": { "x": 87.77, "y": 9.48, "rotation": -93.62, "width": 171, "height": 200 }
+		},
+		"knight-foot-back": {
+			"knight-foot-back": { "x": 39.85, "y": 6.06, "rotation": 15.77, "width": 131, "height": 80 }
+		},
+		"knight-foot-front": {
+			"knight-foot-front": { "x": 38.22, "y": 4.37, "rotation": 15.49, "width": 130, "height": 81 }
+		},
+		"knight-forearm-back": {
+			"knight-forearm-back": { "x": 52.78, "y": -5.67, "rotation": -2.89, "width": 171, "height": 80 }
+		},
+		"knight-forearm-front": {
+			"knight-forearm-front": { "x": 57.03, "y": 0.7, "rotation": 92.71, "width": 101, "height": 200 }
+		},
+		"knight-foreleg-back": {
+			"knight-foreleg-back": { "x": 29.56, "y": 5.91, "rotation": 95.59, "width": 101, "height": 240 }
+		},
+		"knight-foreleg-front": {
+			"knight-foreleg-front": { "x": 30.5, "y": 6.83, "rotation": 95.27, "width": 110, "height": 241 }
+		},
+		"knight-hand-back": {
+			"knight-hand-back": { "x": 21.86, "y": 8.38, "rotation": 0.99, "width": 81, "height": 91 }
+		},
+		"knight-hand-front": {
+			"knight-hand-front": { "x": 30.2, "y": 14.59, "rotation": 89.22, "width": 101, "height": 101 }
+		},
+		"knight-head": {
+			"knight-head": { "x": 73.93, "y": -3.86, "rotation": -91.44, "width": 141, "height": 180 }
+		},
+		"knight-hip": {
+			"knight-hip": { "x": 20, "y": -2, "rotation": -90, "width": 120, "height": 121 }
+		},
+		"knight-shoulder-back": {
+			"knight-shoulder-back": { "x": 154.55, "y": -27.81, "rotation": -93.62, "width": 121, "height": 60 }
+		},
+		"knight-shoulder-front": {
+			"knight-shoulder-front": { "x": 149.79, "y": 23.6, "rotation": -93.62, "width": 140, "height": 71 }
+		},
+		"knight-sword": {
+			"knight-sword": { "x": 182.27, "y": 0.33, "rotation": 1.48, "width": 441, "height": 141 }
+		},
+		"knight-thigh-back": {
+			"knight-thigh-back": { "x": 51.05, "y": -2, "rotation": 91.12, "width": 111, "height": 210 }
+		},
+		"knight-thigh-front": {
+			"knight-thigh-front": { "x": 54.01, "y": 1.71, "rotation": 93.93, "width": 111, "height": 211 }
+		}
+	}
+},
+"events": {
+	"step": { "audio": "step.wav" },
+	"sword": { "audio": "sword.wav" },
+	"woosh": { "audio": "woosh.wav" }
+},
+"animations": {
+	"run": {
+		"bones": {
+			"knight-hip": {
+				"rotate": [
+					{ "time": 0, "angle": -31.74, "curve": "stepped" },
+					{ "time": 0.6667, "angle": -31.74 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -36.4 },
+					{ "time": 0.1333, "x": 0, "y": -26.21 },
+					{ "time": 0.2667, "x": 0, "y": 34.94 },
+					{ "time": 0.3333, "x": 0, "y": -34.94 },
+					{ "time": 0.4, "x": 0, "y": -20.38 },
+					{ "time": 0.5, "x": 0, "y": -13.1 },
+					{ "time": 0.6, "x": 0, "y": 18.93 },
+					{ "time": 0.6667, "x": 0, "y": -36.4 }
+				]
+			},
+			"knight-chest": {
+				"rotate": [
+					{ "time": 0, "angle": -13.29, "curve": "stepped" },
+					{ "time": 0.6667, "angle": -13.29 }
+				]
+			},
+			"leg-front-target": {
+				"translate": [
+					{ "time": 0, "x": 143.62, "y": -315.21 },
+					{ "time": 0.0667, "x": 64.31, "y": -175.93 },
+					{ "time": 0.1333, "x": -19.45, "y": -1.76 },
+					{ "time": 0.2, "x": -47.55, "y": 63.04 },
+					{ "time": 0.2667, "x": 118.36, "y": 129.71 },
+					{ "time": 0.3333, "x": 137.02, "y": 60.79 },
+					{ "time": 0.4, "x": 144.06, "y": -52.99 },
+					{ "time": 0.4667, "x": 165.95, "y": -157.58 },
+					{ "time": 0.5333, "x": 203.13, "y": -228.74 },
+					{ "time": 0.6, "x": 250.31, "y": -338.23 },
+					{ "time": 0.6667, "x": 143.62, "y": -315.21 }
+				]
+			},
+			"leg-back-target": {
+				"translate": [
+					{ "time": 0, "x": 181.82, "y": 201.49 },
+					{ "time": 0.0667, "x": 146.28, "y": 59.67 },
+					{ "time": 0.1333, "x": 181.55, "y": -55.48 },
+					{ "time": 0.2, "x": 221.64, "y": -64.92 },
+					{ "time": 0.2667, "x": 171.89, "y": -208.69 },
+					{ "time": 0.3333, "x": 128.04, "y": -179.32 },
+					{ "time": 0.4, "x": 56.4, "y": -52.43 },
+					{ "time": 0.4667, "x": 0.78, "y": 34.72 },
+					{ "time": 0.5333, "x": -6.5, "y": 129.52 },
+					{ "time": 0.6, "x": 94.04, "y": 210.54 },
+					{ "time": 0.6667, "x": 181.82, "y": 201.49 }
+				]
+			},
+			"arm-front-target": {
+				"translate": [
+					{ "time": 0, "x": -70.38, "y": 199.58 },
+					{ "time": 0.0667, "x": -67.33, "y": 158.66 },
+					{ "time": 0.1333, "x": -16.72, "y": 54.71 },
+					{ "time": 0.2, "x": 116.59, "y": -52.86 },
+					{ "time": 0.2667, "x": 195.21, "y": -105.24 },
+					{ "time": 0.3333, "x": 145.82, "y": -72.44 },
+					{ "time": 0.4, "x": 101.61, "y": -53.56 },
+					{ "time": 0.4667, "x": 28.58, "y": -26.83 },
+					{ "time": 0.5333, "x": -59.2, "y": 148.28 },
+					{ "time": 0.6, "x": -49.41, "y": 328.97 },
+					{ "time": 0.6667, "x": -70.38, "y": 199.58 }
+				]
+			},
+			"arm-back-target": {
+				"translate": [
+					{ "time": 0, "x": 122.43, "y": -23.56 },
+					{ "time": 0.0667, "x": 107.28, "y": -29.51 },
+					{ "time": 0.1333, "x": 54.75, "y": -41.46 },
+					{ "time": 0.2, "x": 2.14, "y": 62.96 },
+					{ "time": 0.2667, "x": -47.91, "y": 218.61 },
+					{ "time": 0.3333, "x": 2.19, "y": 206.8 },
+					{ "time": 0.4, "x": -18.1, "y": 156.58 },
+					{ "time": 0.4667, "x": -22.15, "y": 49.64 },
+					{ "time": 0.5333, "x": 53.93, "y": -18 },
+					{ "time": 0.6, "x": 196.51, "y": -90.74 },
+					{ "time": 0.6667, "x": 122.43, "y": -23.56 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "step" },
+			{ "time": 0.3333, "name": "step" }
+		]
+	},
+	"slash-down": {
+		"bones": {
+			"arm-front-target": {
+				"translate": [
+					{ "time": 0, "x": 257.71, "y": 37.86 },
+					{ "time": 0.1333, "x": 88.82, "y": -113.57 },
+					{ "time": 0.2333, "x": -366.91, "y": 39.31 }
+				]
+			},
+			"knight-hand-front": {
+				"rotate": [
+					{ "time": 0, "angle": 59.26 },
+					{ "time": 0.1333, "angle": -8.04 },
+					{ "time": 0.2333, "angle": -18.09 }
+				]
+			},
+			"knight-chest": {
+				"rotate": [
+					{ "time": 0, "angle": 10.5 },
+					{ "time": 0.1333, "angle": -21.28 },
+					{ "time": 0.2333, "angle": -39.48 }
+				]
+			},
+			"arm-back-target": {
+				"translate": [
+					{ "time": 0, "x": 234.42, "y": 81.54 },
+					{ "time": 0.1333, "x": 66.25, "y": -101.19 },
+					{ "time": 0.2333, "x": -189.28, "y": -4.37 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "woosh" },
+			{ "time": 0.1667, "name": "sword" }
+		]
+	},
+	"slash-down-hard": {
+		"bones": {
+			"knight-chest": {
+				"rotate": [
+					{ "time": 0.1667, "angle": 0.33 },
+					{ "time": 0.2667, "angle": -6.24 },
+					{ "time": 0.3, "angle": -47.01 }
+				]
+			},
+			"knight-hip": {
+				"rotate": [
+					{ "time": 0.1667, "angle": 0.43 },
+					{ "time": 0.2667, "angle": -10.92 },
+					{ "time": 0.3, "angle": -31.99 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -14.33 },
+					{ "time": 0.0333, "x": 0, "y": -30.84 },
+					{ "time": 0.1333, "x": 0, "y": 81.43 },
+					{ "time": 0.1667, "x": 0, "y": 155.73 },
+					{ "time": 0.2667, "x": 0, "y": -42.39 },
+					{ "time": 0.3, "x": 0, "y": -90.27 }
+				]
+			},
+			"leg-front-target": {
+				"translate": [
+					{ "time": 0, "x": 12.41, "y": 28.24 },
+					{ "time": 0.0333, "x": 30.55, "y": 24.8 },
+					{ "time": 0.1667, "x": 3.93, "y": -1.41 },
+					{ "time": 0.2667, "x": 1.91, "y": -50.93 },
+					{ "time": 0.3, "x": 95.88, "y": -103.62 }
+				]
+			},
+			"leg-back-target": {
+				"translate": [
+					{ "time": 0, "x": 13.41, "y": 22.89 },
+					{ "time": 0.0333, "x": 28.33, "y": 31.03 },
+					{ "time": 0.1667, "x": 7.01, "y": 49.36 },
+					{ "time": 0.2667, "x": 47.6, "y": -40.11 },
+					{ "time": 0.3, "x": 163.62, "y": -59.36 }
+				]
+			},
+			"arm-front-target": {
+				"translate": [
+					{ "time": 0, "x": -88.62, "y": 19.43 },
+					{ "time": 0.0333, "x": 52.86, "y": -47.69 },
+					{ "time": 0.1333, "x": 200.38, "y": 28.79 },
+					{ "time": 0.1667, "x": 244.6, "y": -19.42 },
+					{ "time": 0.2667, "x": 32.61, "y": -105.32 },
+					{ "time": 0.3, "x": -98.4, "y": -119.54 }
+				]
+			},
+			"knight-hand-front": {
+				"rotate": [
+					{ "time": 0, "angle": 7.35 },
+					{ "time": 0.1333, "angle": -10.36 },
+					{ "time": 0.2, "angle": -16.17 },
+					{ "time": 0.2667, "angle": -58.33 },
+					{ "time": 0.3, "angle": -12.62 }
+				]
+			},
+			"arm-back-target": {
+				"translate": [
+					{ "time": 0, "x": -78.88, "y": 26.94 },
+					{ "time": 0.0333, "x": 46.18, "y": -26.94 },
+					{ "time": 0.0667, "x": 86.58, "y": -11.54 },
+					{ "time": 0.1, "x": 132.76, "y": 5.77 },
+					{ "time": 0.1333, "x": 194.32, "y": 34.63 },
+					{ "time": 0.1667, "x": 230.66, "y": 5.5 },
+					{ "time": 0.2, "x": 211.33, "y": -26.47 },
+					{ "time": 0.2333, "x": 100.61, "y": -71.36 },
+					{ "time": 0.2667, "x": -2.86, "y": -83.49 },
+					{ "time": 0.3, "x": -98.92, "y": -100.39 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.1667, "name": "woosh" },
+			{ "time": 0.2667, "name": "sword" }
+		]
+	},
+	"slash-up": {
+		"bones": {
+			"knight-chest": {
+				"rotate": [
+					{ "time": 0, "angle": -27.8 },
+					{ "time": 0.2, "angle": -6.2 }
+				]
+			},
+			"knight-forearm-front": {
+				"rotate": [
+					{ "time": 0, "angle": -81.87 },
+					{ "time": 0.1, "angle": -68.72 },
+					{ "time": 0.2, "angle": 28.16 }
+				]
+			},
+			"knight-arm-front": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1, "angle": 89.42 },
+					{ "time": 0.2, "angle": 138.41 }
+				]
+			},
+			"knight-hand-front": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1, "angle": -66.31 },
+					{ "time": 0.2, "angle": 29.63 }
+				]
+			},
+			"arm-back-target": {
+				"translate": [
+					{ "time": 0, "x": -101.92, "y": 56.78 },
+					{ "time": 0.1, "x": 78.62, "y": -132.5 },
+					{ "time": 0.2, "x": 205.3, "y": 246.06 }
+				]
+			}
+		},
+		"ik": {
+			"arm-front-target": [
+				{ "time": 0, "mix": 0 }
+			]
+		},
+		"events": [
+			{ "time": 0, "name": "woosh" },
+			{ "time": 0.1, "name": "sword" }
+		]
+	},
+	"slash-up-hard": {
+		"bones": {
+			"knight-chest": {
+				"rotate": [
+					{ "time": 0, "angle": -27.8 },
+					{ "time": 0.2, "angle": -6.2 }
+				]
+			},
+			"knight-forearm-front": {
+				"rotate": [
+					{ "time": 0, "angle": -81.87 },
+					{ "time": 0.1, "angle": -68.72 },
+					{ "time": 0.2, "angle": 28.16 }
+				]
+			},
+			"knight-arm-front": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1, "angle": 89.42 },
+					{ "time": 0.2, "angle": 138.41 }
+				]
+			},
+			"knight-hand-front": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1, "angle": -66.31 },
+					{ "time": 0.2, "angle": 29.63 }
+				]
+			},
+			"arm-back-target": {
+				"translate": [
+					{ "time": 0, "x": -101.92, "y": 56.78 },
+					{ "time": 0.1, "x": 78.62, "y": -132.5 },
+					{ "time": 0.2, "x": 205.3, "y": 246.06 }
+				]
+			},
+			"knight-hip": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": -51.95 },
+					{ "time": 0.1, "x": 0, "y": 243.68 },
+					{ "time": 0.2, "x": 0, "y": -15.92 }
+				]
+			},
+			"leg-back-target": {
+				"translate": [
+					{ "time": 0, "x": 51.95, "y": 7.7 },
+					{ "time": 0.1, "x": 5.77, "y": 26.94 },
+					{ "time": 0.2, "x": 23.75, "y": 40.92 }
+				]
+			},
+			"leg-front-target": {
+				"translate": [
+					{ "time": 0, "x": 46.18, "y": -15.39 },
+					{ "time": 0.1, "x": -5.77, "y": -5.77 },
+					{ "time": 0.2, "x": 15.21, "y": -0.78 }
+				]
+			}
+		},
+		"ik": {
+			"arm-front-target": [
+				{ "time": 0, "mix": 0 }
+			]
+		},
+		"events": [
+			{ "time": 0.0667, "name": "woosh" },
+			{ "time": 0.1, "name": "sword" }
+		]
+	},
+	"spin": {
+		"bones": {
+			"arm-front-target": {
+				"translate": [
+					{ "time": 0, "x": 245.89, "y": 11.26 },
+					{ "time": 0.2667, "x": -109.19, "y": 18.58 }
+				]
+			},
+			"arm-back-target": {
+				"translate": [
+					{ "time": 0, "x": 245.89, "y": 26.28 },
+					{ "time": 0.2667, "x": -116.73, "y": 5.89 }
+				]
+			},
+			"leg-front-target": {
+				"translate": [
+					{ "time": 0, "x": 54.43, "y": -13.14 },
+					{ "time": 0.0667, "x": -18.77, "y": -20.65 },
+					{ "time": 0.1667, "x": 161.42, "y": 114.5 },
+					{ "time": 0.2667, "x": 28.46, "y": 40.8 }
+				]
+			},
+			"leg-back-target": {
+				"translate": [
+					{ "time": 0, "x": 54.43, "y": -3.75 },
+					{ "time": 0.0667, "x": -3.75, "y": 9.38 },
+					{ "time": 0.1667, "x": 95.73, "y": 165.18 },
+					{ "time": 0.2667, "x": 20.42, "y": -0.89 }
+				]
+			},
+			"knight-hip": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1, "angle": -64.6 },
+					{ "time": 0.1667, "angle": -152.42 },
+					{ "time": 0.2, "angle": -252.72 },
+					{ "time": 0.2667, "angle": 3.91 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -56.31 },
+					{ "time": 0.0667, "x": 0, "y": 3.75 },
+					{ "time": 0.1, "x": 0, "y": 82.59 },
+					{ "time": 0.2667, "x": 0, "y": -20.65 }
+				]
+			},
+			"knight-chest": {
+				"rotate": [
+					{ "time": 0.1667, "angle": -31.56 },
+					{ "time": 0.3667, "angle": -56.47 }
+				]
+			},
+			"knight-hand-front": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3, "angle": -39.26 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "woosh" },
+			{ "time": 0.1333, "name": "sword" }
+		]
+	},
+	"spin-hard": {
+		"bones": {
+			"arm-front-target": {
+				"translate": [
+					{ "time": 0, "x": 245.89, "y": 11.26 },
+					{ "time": 0.2667, "x": -109.19, "y": 18.58 }
+				]
+			},
+			"arm-back-target": {
+				"translate": [
+					{ "time": 0, "x": 245.89, "y": 26.28 },
+					{ "time": 0.2667, "x": -116.73, "y": 5.89 }
+				]
+			},
+			"leg-front-target": {
+				"translate": [
+					{ "time": 0, "x": 54.43, "y": -13.14 },
+					{ "time": 0.0667, "x": -18.77, "y": -20.65 },
+					{ "time": 0.1667, "x": 161.42, "y": 114.5 },
+					{ "time": 0.2667, "x": 28.46, "y": 40.8 }
+				]
+			},
+			"leg-back-target": {
+				"translate": [
+					{ "time": 0, "x": 54.43, "y": -3.75 },
+					{ "time": 0.0667, "x": -3.75, "y": 9.38 },
+					{ "time": 0.1667, "x": 95.73, "y": 165.18 },
+					{ "time": 0.2667, "x": 20.42, "y": -0.89 }
+				]
+			},
+			"knight-hip": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1667, "angle": -64.6 },
+					{ "time": 0.2667, "angle": -152.42 },
+					{ "time": 0.3, "angle": -252.72 },
+					{ "time": 0.4, "angle": 3.91 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": -56.31 },
+					{ "time": 0.1667, "x": 0, "y": 617.12 },
+					{ "time": 0.4, "x": 0, "y": -20.65 }
+				]
+			},
+			"knight-chest": {
+				"rotate": [
+					{ "time": 0.1667, "angle": -31.56 },
+					{ "time": 0.3667, "angle": -56.47 }
+				]
+			},
+			"knight-hand-front": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3, "angle": -39.26 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "woosh" },
+			{ "time": 0.1333, "name": "sword" }
+		]
+	},
+	"stab": {
+		"bones": {
+			"knight-chest": {
+				"rotate": [
+					{ "time": 0, "angle": 9.65 },
+					{ "time": 0.2, "angle": -14.33 }
+				]
+			},
+			"knight-arm-front": {
+				"rotate": [
+					{ "time": 0, "angle": 257.21 },
+					{ "time": 0.1, "angle": -0.04 },
+					{ "time": 0.2, "angle": 84.21 }
+				]
+			},
+			"knight-forearm-front": {
+				"rotate": [
+					{ "time": 0, "angle": 27.58 },
+					{ "time": 0.1, "angle": 46.44 },
+					{ "time": 0.2, "angle": -73.7 }
+				]
+			},
+			"knight-sword": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -87.22 }
+				]
+			},
+			"knight-arm-back": {
+				"rotate": [
+					{ "time": 0, "angle": -61.32 },
+					{ "time": 0.1, "angle": -15.1 },
+					{ "time": 0.2, "angle": -279.25 }
+				]
+			},
+			"knight-forearm-back": {
+				"rotate": [
+					{ "time": 0, "angle": 10.54 },
+					{ "time": 0.1, "angle": 59.06 },
+					{ "time": 0.2, "angle": -54.33 }
+				]
+			}
+		},
+		"ik": {
+			"arm-back-target": [
+				{ "time": 0, "mix": 0 }
+			],
+			"arm-front-target": [
+				{ "time": 0, "mix": 0 }
+			]
+		},
+		"events": [
+			{ "time": 0, "name": "woosh" },
+			{ "time": 0.2, "name": "sword" }
+		]
+	},
+	"stab-hard": {
+		"bones": {
+			"knight-chest": {
+				"rotate": [
+					{ "time": 0, "angle": 9.65 },
+					{ "time": 0.2, "angle": -14.33 }
+				]
+			},
+			"knight-arm-front": {
+				"rotate": [
+					{ "time": 0, "angle": 257.21 },
+					{ "time": 0.1, "angle": -0.04 },
+					{ "time": 0.2, "angle": 84.21 }
+				]
+			},
+			"knight-forearm-front": {
+				"rotate": [
+					{ "time": 0, "angle": 27.58 },
+					{ "time": 0.1, "angle": 46.44 },
+					{ "time": 0.2, "angle": -73.7 }
+				]
+			},
+			"knight-sword": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.2, "angle": -87.22 }
+				]
+			},
+			"knight-arm-back": {
+				"rotate": [
+					{ "time": 0, "angle": -61.32 },
+					{ "time": 0.1, "angle": -15.1 },
+					{ "time": 0.2, "angle": -279.25 }
+				]
+			},
+			"knight-forearm-back": {
+				"rotate": [
+					{ "time": 0, "angle": 10.54 },
+					{ "time": 0.1, "angle": 59.06 },
+					{ "time": 0.2, "angle": -54.33 }
+				]
+			},
+			"knight-hip": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.2, "x": 329.74, "y": 0 },
+					{ "time": 0.4, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"ik": {
+			"arm-back-target": [
+				{ "time": 0, "mix": 0 }
+			],
+			"arm-front-target": [
+				{ "time": 0, "mix": 0 }
+			]
+		},
+		"events": [
+			{ "time": 0, "name": "woosh" },
+			{ "time": 0.2, "name": "sword" }
+		]
+	},
+	"stand": {}
+}
+}

@@ -1,0 +1,190 @@
+
+Combo Slashers X.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+button
+  rotate: false
+  xy: 512, 868
+  size: 362, 137
+  split: 209, 130, 23, 24
+  pad: 99, 20, 23, 24
+  orig: 362, 137
+  offset: 0, 0
+  index: -1
+button-frame
+  rotate: false
+  xy: 831, 686
+  size: 41, 41
+  split: 8, 8, 8, 8
+  pad: 9, 9, 9, 9
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+button-frame-over
+  rotate: false
+  xy: 831, 643
+  size: 41, 41
+  split: 8, 8, 8, 8
+  pad: 9, 9, 9, 9
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+button-frame-pressed
+  rotate: false
+  xy: 874, 682
+  size: 41, 41
+  split: 8, 8, 8, 8
+  pad: 9, 9, 9, 9
+  orig: 41, 41
+  offset: 0, 0
+  index: -1
+button-over
+  rotate: false
+  xy: 1, 108
+  size: 362, 137
+  split: 209, 130, 23, 24
+  pad: 99, 20, 23, 24
+  orig: 362, 137
+  offset: 0, 0
+  index: -1
+button-pressed
+  rotate: false
+  xy: 512, 729
+  size: 362, 137
+  split: 209, 130, 23, 24
+  pad: 99, 20, 23, 24
+  orig: 362, 137
+  offset: 0, 0
+  index: -1
+font-export
+  rotate: false
+  xy: 1, 499
+  size: 509, 506
+  orig: 509, 506
+  offset: 0, 0
+  index: -1
+font-small-export
+  rotate: false
+  xy: 512, 514
+  size: 210, 213
+  orig: 210, 213
+  offset: 0, 0
+  index: -1
+image-down
+  rotate: false
+  xy: 663, 442
+  size: 61, 70
+  orig: 61, 70
+  offset: 0, 0
+  index: -1
+image-down-selected
+  rotate: false
+  xy: 663, 298
+  size: 61, 70
+  orig: 61, 70
+  offset: 0, 0
+  index: -1
+image-left
+  rotate: false
+  xy: 108, 36
+  size: 71, 70
+  orig: 71, 70
+  offset: 0, 0
+  index: -1
+image-left-selected
+  rotate: false
+  xy: 254, 36
+  size: 71, 70
+  orig: 71, 70
+  offset: 0, 0
+  index: -1
+image-right
+  rotate: false
+  xy: 724, 550
+  size: 71, 70
+  orig: 71, 70
+  offset: 0, 0
+  index: -1
+image-right-selected
+  rotate: false
+  xy: 181, 36
+  size: 71, 70
+  orig: 71, 70
+  offset: 0, 0
+  index: -1
+image-up
+  rotate: false
+  xy: 663, 370
+  size: 61, 70
+  orig: 61, 70
+  offset: 0, 0
+  index: -1
+image-up-selected
+  rotate: false
+  xy: 876, 725
+  size: 61, 70
+  orig: 61, 70
+  offset: 0, 0
+  index: -1
+knight
+  rotate: false
+  xy: 393, 249
+  size: 164, 248
+  orig: 164, 248
+  offset: 0, 0
+  index: -1
+list
+  rotate: false
+  xy: 876, 797
+  size: 101, 101
+  split: 1, 1, 1, 1
+  orig: 101, 101
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 1, 247
+  size: 390, 250
+  orig: 390, 250
+  offset: 0, 0
+  index: -1
+ninja
+  rotate: false
+  xy: 559, 283
+  size: 102, 229
+  orig: 102, 229
+  offset: 0, 0
+  index: -1
+select-box
+  rotate: false
+  xy: 876, 900
+  size: 105, 105
+  split: 10, 10, 10, 40
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+select-box-over
+  rotate: false
+  xy: 1, 1
+  size: 105, 105
+  split: 10, 10, 10, 40
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+select-box-pressed
+  rotate: false
+  xy: 724, 622
+  size: 105, 105
+  split: 10, 10, 10, 40
+  orig: 105, 105
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 365, 244
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1

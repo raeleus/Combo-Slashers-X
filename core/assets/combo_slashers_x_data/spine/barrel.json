@@ -1,0 +1,138 @@
+{
+"skeleton": { "hash": "SZIYMlwSmBfa1VTAhuhyDHfTfNQ", "spine": "3.7.17-beta", "width": 0, "height": 0, "images": "../output/", "audio": "../../code/core/assets/combo_slashers_x_data/sfx/" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "barrel", "parent": "root", "length": 443.31, "rotation": 89.21, "x": -6.56, "y": 284.85 },
+	{ "name": "target2", "parent": "root", "y": -3.09, "color": "abe323ff" }
+],
+"slots": [
+	{ "name": "barrel", "bone": "barrel", "attachment": "barrel" },
+	{ "name": "bbox", "bone": "barrel", "attachment": "bbox" }
+],
+"transform": [
+	{
+		"name": "target",
+		"order": 0,
+		"bones": [ "barrel" ],
+		"target": "target2",
+		"local": true,
+		"relative": true,
+		"rotateMix": 0,
+		"scaleMix": 0,
+		"shearMix": 0
+	}
+],
+"skins": {
+	"default": {
+		"barrel": {
+			"barrel": { "x": 0.09, "y": -6.56, "rotation": -89.21, "width": 311, "height": 511 },
+			"barrel-destroyed": { "rotation": -89.21, "width": 311, "height": 511 }
+		},
+		"bbox": {
+			"bbox": {
+				"type": "boundingbox",
+				"vertexCount": 4,
+				"vertices": [ -206.38, 137.61, 217.61, 141.45, 219.62, -149.55, -205.35, -154.41 ]
+			}
+		}
+	}
+},
+"events": {
+	"barrel": { "audio": "barrel.wav" }
+},
+"animations": {
+	"01": {
+		"bones": {
+			"barrel": {
+				"rotate": [
+					{
+						"time": 0,
+						"angle": 0,
+						"curve": [ 0, 0.53, 0.524, 0.94 ]
+					},
+					{
+						"time": 0.1667,
+						"angle": -14.37,
+						"curve": [ 0.586, 0, 1, 0.48 ]
+					},
+					{ "time": 0.3333, "angle": 0 }
+				],
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0, 0.53, 0.524, 0.94 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 61.14,
+						"y": 0,
+						"curve": [ 0.586, 0, 1, 0.48 ]
+					},
+					{ "time": 0.3333, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0, "name": "barrel" }
+		]
+	},
+	"02": {
+		"slots": {
+			"barrel": {
+				"attachment": [
+					{ "time": 0, "name": "barrel-destroyed" }
+				],
+				"color": [
+					{ "time": 0, "color": "ffffffff" },
+					{ "time": 1.2, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"barrel": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1, "angle": -90 },
+					{ "time": 0.2, "angle": -180 },
+					{ "time": 0.3, "angle": 90 },
+					{ "time": 0.4, "angle": 0 },
+					{ "time": 0.5, "angle": -90 },
+					{ "time": 0.6, "angle": -180 },
+					{ "time": 0.7, "angle": 90 },
+					{ "time": 0.8, "angle": 0 },
+					{ "time": 0.9, "angle": -90 },
+					{ "time": 1, "angle": -180 },
+					{ "time": 1.1, "angle": 90 },
+					{ "time": 1.2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1.2, "x": 2382.38, "y": 0 }
+				]
+			},
+			"target2": {
+				"translate": [
+					{
+						"time": 0,
+						"x": 0,
+						"y": 0,
+						"curve": [ 0.199, -1.82, 1, 0.23 ]
+					},
+					{ "time": 1.2, "x": 0, "y": -792.28 }
+				]
+			}
+		},
+		"transform": {
+			"target": [
+				{ "time": 0, "rotateMix": 0, "scaleMix": 0, "shearMix": 0 }
+			]
+		},
+		"events": [
+			{ "time": 0, "name": "barrel" }
+		]
+	},
+	"animation": {}
+}
+}
